@@ -4,10 +4,10 @@ def information_nom_et_prenom(nom:str,prenom:str):
     if(nom=="" or prenom==""):
         print("erreur 103-5A")
         nom=input("entre votre  nom")
-        prenom=input("entrez votre prenom")
-    
+        prenom =input("entrez votre prenom")
     else:
         print("bien venu M/Mne",nom,prenom)
+
         
         
 def info_age(age:int):
