@@ -8,6 +8,7 @@ from projet_1 import info_age
 from projet_1 import date_naiss
 information_nom_et_prenom(a,b)
 info_age(c)
+bissextile=False
 date_naiss(d,c)
 print("entrez vous information supplementaire")
 e=input("entrez votre lieux d origine")
